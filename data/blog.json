@@ -1,1 +1,48 @@
-{"posts":[]}
+{
+  "eyebrow": "Notes on risk & method",
+  "heading": "Working *notes.*",
+  "intro": "Analysis I do like hazard exposure, coastal change, urban ecology, and the methods behind them. Each post states what the data can and cannot support.",
+  "posts": [
+    {
+      "id": "teesta-glof-exposure",
+      "title": "Who is downstream? The 189 lakes that have not failed yet",
+      "date": "2026-11-06",
+      "category": "Disaster risk",
+      "summary": "The October 2023 Teesta flood was documented to an unusual standard, including its exposure: nearly 60% of the buildings it damaged had been built in the previous decade. That finding is the strongest argument available for doing the same analysis before the next outburst — which, for the roughly 200 high-risk lakes on India's mitigation list, nobody has done.",
+      "thumb": "public/media/pexels-dibakar-roy-2432543-23939154_11zon_11zon.webp",
+      "sections": [
+        {
+          "t": "On the night of 3 October 2023, a glacial lake outburst flood (GLOF) travelled down the Teesta from South Lhonak Lake in north Sikkim. Two hours later it reached Chungthang, about 68 km downstream, destroying the 1,200 MW Teesta-III hydropower project on impact and damaging four dams further down. \n\nWhat makes this event unusual is that someone went back and counted properly. Almost 60% of the buildings damaged by the disaster had been built in the previous decade — which means the risk was most likely never communicated to the people who would bear it. That single number is the case for prospective exposure analysis, and it was produced two years after the flood rather than before it."
+        },
+        {
+          "h": "The event, and the exposure work that followed",
+          "t": "A 34-author reconstruction published in Science describes a multi-hazard cascade rather than a flood: 14.7 million m³ of frozen lateral moraine collapsed into the lake, generating an approximately 20 m tsunami-like impact wave, breaching the moraine dam, draining some 50 million m³ of water and eroding around 270 million m³ of sediment (Sattar et al.). As it travelled it set off 45 secondary landslides, many of them deep-seated and up to 150 m in depth, with impacts in Sikkim, West Bengal and Bangladesh. \n\nThe failure was not invisible beforehand. The section of lateral moraine that gave way had been displacing by more than 15 m per year between 2016 and 2023, and earlier work had recorded the lake’s rapid growth and warned of outburst risk downstream. \n\nCrucially, the same team mapped the consequences. Their assessment ran from the GLOF source to the Teesta–Brahmaputra confluence in Bangladesh, 385 km downstream, and included mapping of damaged buildings, roads and bridges, and it quantified the change in building exposure over the past decade by surveying building totals for 2013 and 2023 against high-resolution imagery. The cascade damaged 25,900 buildings and 31 major bridges and flooded 276 km² of agricultural land; the most affected buildings sat below Chungthang, beyond 200 km from the lake, and the most heavily inundated zone was 290–385 km away, inside Bangladesh. \n\nSo the complaint cannot be that GLOF exposure is unmappable. It is mappable, and it has been mapped once, retrospectively, by a research consortium."
+        },
+        {
+          "h": "The operational record was out by an order of magnitude for two years",
+          "t": "What the Science survey eventually counted and what the response system recorded at the time are not close. A rapid assessment two days after the event recorded 13 bridges destroyed, 1,203 residential houses obliterated and over 25,065 people affected. A humanitarian briefing note nine days in put it at 2,516 houses partially or fully damaged and 13 bridges washed away. A multi-stakeholder consultation two weeks in recorded 88,400 people affected, around 2,000 houses damaged, 33 bridges collapsed and 15 roads closed including NH-\n\nAgainst a final count of 25,900 buildings, the operational figures understated building damage roughly tenfold, and stayed that way until the research came out.\n\nFatalities show the same pattern in the literature. The event toll settled at at least 55 deaths, 74 missing and over 7,000 displaced, yet one peer-reviewed reconstruction states 24 fatalities while another reports 178. Some of this is timing, some is definition — destroyed against damaged, Sikkim alone against Sikkim with West Bengal, deaths against deaths-plus-missing. But a disaster whose damage record moves by a factor of ten between week two and year two has no baseline a planner can use during a response. \n"
+        },
+        {
+          "h": "Exposure here is not a floodplain",
+          "t": "Three features of this event defeat standard flood-exposure practice.\n\nSediment, not just water. With around 270 million m³ of sediment mobilised and dam debris amplifying the flow, channel aggradation and bank erosion destroy assets outside any inundation polygon and keep the bed raised for years. Slopes that eroded during the 2023 GLOF remain unstable and show continued deformation, and similar situations exist at other lakes that did not completely drain and continue to expand. \n\nLifelines, not area. The collapse of 33 bridges in Sikkim severed north Sikkim’s connection to the rest of the state, with knock-on damage to tourism; the state also estimated that 107 sand and stone collection sites were damaged, affecting over 5,500 labourers. A number in square kilometres cannot see either of those losses. \n\nReach, and a border. The worst-inundated stretch was in another country. Exposure assessment stops at state and national boundaries; neither the flood nor its sediment does."
+        },
+        {
+          "h": "What prospective exposure would look like",
+          "t": "The components are open: lake inventories, Sentinel-2 for area change, Copernicus or ALOS elevation data, breach scenarios parameterised from documented events, and routing in free hydraulic models. The novelty is in the outputs — which settlements lose road access and for how long, which bridges sit on single-access routes, how many schools and health centres fall inside the footprint, and across a set of lakes, a ranking by downstream consequence rather than lake attributes.\n\nThe Teesta basin is also the one place such a method can be validated, because an observed 2023 footprint exists and has been mapped independently several times. Any consequence model proposed for the Indian Himalayas that has not been run against this event has skipped the only test available."
+        },
+        {
+          "h": "Mitigation is running ahead of prospective exposure",
+          "t": "Of roughly 7,500 glacial lakes in the Indian Himalayas, NDMA identified 195 at-risk lakes in four categories of cascading risk under a ₹150-crore National GLOF Risk Mitigation Programme approved in 2024, and expeditions have reached 40 of the highest-risk lakes (earlier reporting put the high-risk list at 189). In Sikkim alone, 232 glacial lakes exist, of which 31 are classed between medium and very high risk. \n\nPrioritisation rests on lake-side characteristics. What determines how much a lake matters is what lies beneath it, and an early warning system needs a named population and a warning-to-impact time before it can be evaluated rather than merely installed. Practitioners on the programme have made a related argument against serial processing — expedition, then studies, then mitigation, when exposure work could run in parallel."
+        },
+        {
+          "h": "For planners and state disaster authorities",
+          "t": "Keep one impact ledger per event, versioned, so the gap between the week-two count and the eventual survey closes.\n\nRank lakes by downstream consequence, not lake attributes alone.\n\nName the lifelines - bridges and NH-10 segments as individual assets, each with an alternative route.\n\nDefine the warned population for every lake receiving an early warning system.\n\nCoordinate downstream, including with Bangladesh, where the worst inundation occurred.\n\nMake exposure assessment a clearance condition for new hydropower, validated against the 2023 footprint. The 60%-in-a-decade finding is an indictment of permitting, not of hazard science."
+        },
+        {
+          "h": "Limits",
+          "t": "This is exposure analysis, not prediction: nothing here says which lake will fail or when. Open elevation data at 30 m cannot resolve channel geometry in a steep Himalayan valley, most of these lakes have no published bathymetry, and breach volumes carry large uncertainty, so results belong in ranges. Building footprint coverage in the hills is incomplete, which biases asset counts downward. And the damage figures above come from two different kinds of source - a peer-reviewed survey and contemporaneous humanitarian reporting - which is part of the point, but should be read with that distinction in mind."
+        }
+      ]
+    }
+  ]
+}
