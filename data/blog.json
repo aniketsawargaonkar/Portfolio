@@ -43,6 +43,88 @@
           "t": "This is exposure analysis, not prediction: nothing here says which lake will fail or when. Open elevation data at 30 m cannot resolve channel geometry in a steep Himalayan valley, most of these lakes have no published bathymetry, and breach volumes carry large uncertainty, so results belong in ranges. Building footprint coverage in the hills is incomplete, which biases asset counts downward. And the damage figures above come from two different kinds of source - a peer-reviewed survey and contemporaneous humanitarian reporting - which is part of the point, but should be read with that distinction in mind."
         }
       ]
+    },
+    {
+      "id": "odisha-shoreline-exposure",
+      "title": "From metres per year to households: reading Odisha's shoreline record as exposure",
+      "date": "2026-11-07",
+      "category": "Climate risk",
+      "summary": "The Ganjam–Puri coast has been measured repeatedly for three decades and the rates are not in dispute. What no study reports is how many households, schools and fishing landings sit inside the next decade of retreat — the conversion where erosion research stops and coastal planning needs to start.",
+      "thumb": "public/media/pexels-shaikh-mohammed-meraj-3520230-5261381_11zon-1.webp",
+      "sections": [
+        {
+          "t": "Few hazards in India are as well measured and as poorly translated as coastal erosion. Southern Odisha has been through at least four independent shoreline analyses since 2016, each reporting rates to two decimal places, alongside a national government assessment covering 28 years. A few hundred kilometres up the same coast, a village has already been evacuated because the sea arrived.\n\nBetween those two facts sits a missing step. A rate tells a planner the shoreline is retreating. It does not tell them whose house is in the way."
+        },
+        {
+          "h": "What the record already tells us",
+          "t": "For Ganjam, a DSAS analysis of 1990–2019 Landsat imagery found average erosion and accretion rates of −2.58 m/year and 11.63 m/year, and located the change precisely: erosion hotspots at Ramyapatna and Podampetta, accretion at Gopalpur port and along the spits of the Bahuda and Rushikulya rivers (Mishra et al., Geocarto International). \n\nAn earlier 24-year assessment found 71.65% of the Ganjam coast accreting and 28.35% eroding, with the highest erosion immediately north of Gopalpur port (Markose et al.). For Puri, a 25-year assessment found a significant erosion trend concentrated on the northern side of the district, with a cyclic pattern of accretion during 1990–1995 and 2000–2004 and erosion during 1995–2000 and 2009–2015 (Environmental Earth Sciences). \n\n\nThe government’s district table is equally specific: Ganjam has 62.9 km of coast of which 15.48 km (24.6%) is eroding, and Puri has 140.04 km of which 15.78 km (11.3%) is eroding (Ministry of Earth Sciences). \n\n\nOne finding deserves more attention than it gets. Erosion rates in Ganjam rose during cyclone landfall years, visible in the 1995–2000 window containing the 1999 super cyclone and the 2015–2019 window containing Cyclone Fani, and the literature attributes erosion here to tropical cyclones together with port development, breakwaters and groynes. Erosion on this coast arrives in steps, on days that are already disaster days. \n\n"
+        },
+        {
+          "h": "Why metres per year is the wrong unit for a planner",
+          "t": "It is a transect average, so it smooths what matters: a district reported as 46% accreting can contain a hamlet losing ground fast, which is why hotspot naming beats the district mean.\n\nIt describes the line, not what stands behind it. Published outputs stop at kilometres of coast per category; none reports dwellings, schools, health posts, roads or landing centres inside the eroding segments.\n\nAnd it implies a smoothness the process lacks. If erosion steps forward in cyclone years, a household’s exposure is not 2.58 m of beach a year - it is the chance of losing ten or twenty metres in one season."
+        },
+        {
+          "h": "What the end of that curve looks like",
+          "t": "Further north, the translation has already happened without anyone modelling it. Satabhaya in Kendrapara district is considered the first village in India officially relocated because of sea ingress; resettlement began in 2015 and was completed in 2018, by which point only 571 families remained - hundreds of others had already left to escape the advancing sea. \n\nThe change is within living memory. A hand pump installed 18 years earlier stood well in the middle of the village and now sits exposed on the beach, the last drinking water source there; ten other hand pumps had been swallowed over two decades, and the village’s 12 km beach is the fastest eroding in the state. Village elders recall the sea being nearly four kilometres away in their childhood, and the first major erosion came around thirty years ago, when the winter palace of the Rajkanika royal family ended up in the sea. \n\nIt has not stopped. Satabhaya lost almost 40 m of shoreline in a single year to 2025, and roughly 28 km of Kendrapara’s 48 km coastline is now in a critical state. Closer to the study area, Udayakani and Tandahara villages in Astaranga block of Puri district are on the verge of being engulfed, and Udayakani’s residents have relocated three times already. \n\nThat is what an erosion rate looks like when it finishes. The move took roughly a decade to negotiate and began only in 2015, long after the loss was underway. An exposure projection would have named those families in the 1990s."
+        },
+        {
+          "h": "A method: from transects to households",
+          "t": "Establish the baseline the standard way - multi-decadal shorelines from Landsat and Sentinel, change rates by end point rate and linear regression, segmented by hotspot rather than district.\n\nExtrapolate ten years, and label it an extrapolation. Project each transect forward to a 2036 line, run twice - once on the long-term trend, once on a landfall-window rate - to bracket the range.\n\nIntersect with what stands behind it: building footprints, settlement boundaries, school and health facility coordinates, road segments, landing centres, and the launching ground fishers actually use.\n\nReport in units a collector can act on: households inside the 2036 line by hamlet, schools and health posts within it, metres of road, landing sites lost - and tenure status, because compensation turns on it. Inadequate policy support is a documented feature of this coast’s relocations, and the Satabhaya timeline shows what it costs to leave entitlement questions to the end."
+        },
+        {
+          "h": "Some of this erosion was built",
+          "t": "Attribution decides who pays. The pattern is legible in the Ganjam maps - accretion at Gopalpur port alongside the worst erosion immediately north of it - and in Kendrapara, erosion in the Satabhaya villages is traced to changed sea wave patterns following construction at Paradip port. \n\nAn exposure assessment silent on this leaves households with a claim against the climate and none against anyone. Separating the structural component from the climatic one determines whether compensation is a welfare question or a liability question."
+        },
+        {
+          "h": "For planners and coastal authorities",
+          "t": "Publish exposure with every rate. Plan on hotspots, not district means. Treat landfall years as erosion events in post-cyclone damage assessment. Resolve tenure before relocation. Name the structures where a port or groyne field is implicated."
+        },
+        {
+          "h": "Limits",
+          "t": "The signal is small relative to the sensor: 2.58 m/year is well under a Landsat pixel, so only long baselines are defensible and short-epoch comparisons largely measure tide, season and digitising error. Published rates for the same district differ partly because shoreline proxies and periods differ, which argues for ranges rather than single numbers. Linear extrapolation is the method’s weakest link, precisely because the record shows episodic loss. And accretion is not safety - a prograding spit is still low, exposed ground, and several accreting segments here are where surge inundation is worst."
+        }
+      ]
+    },
+    {
+      "id": "chennai-green-blue-connectivity",
+      "title": "Which patches hold Chennai's green–blue network together?",
+      "date": "2026-11-10",
+      "category": "Climate risk",
+      "summary": "Chennai's green and blue spaces are counted in hectares lost. Counted that way, a city can protect its largest remaining patches and still watch the network fail - and the city's own heat research has already found that its green cover cools less than it should because it is fragmented and disconnected.",
+      "thumb": "public/media/pexels-ninosouza-16427692_11zon-1.webp"
+    },
+    {
+      "id": "mangrove-width-protection",
+      "title": "How much mangrove buys how much protection? Bhitarkanika's evidence, and its critics",
+      "date": "2026-11-12",
+      "category": "Disaster risk",
+      "summary": "The strongest field evidence that mangroves save lives comes from the 1999 Odisha super cyclone, and it is usually cited without its central variable: width. The belts that reduced deaths were kilometres deep. The same paper's critics argued in print that even that protection was modest — and the argument between them is more useful to a planner than either position alone.",
+      "thumb": "public/media/pexels-faith-bissen-924586961-39027002_11zon-1.webp",
+      "sections": [
+        {
+          "t": "The standard account of Chennai’s loss is an area story, and the areas are stark. A Scientific Reports study by researchers at NIT Calicut analysing 2014–2024 found built-up area rising from 36% to 67% while vegetation cover fell from 25% to 10%. A separate analysis of six megacities found Chennai’s built-up area doubling over two decades while green cover shrank by almost 14 percentage points, and a study of the metropolitan area recorded a 13.33% decrease in green cover with a 6.53°C increase in land surface temperature between 2013 and 2022. \n\nBut the finding that matters for planning is not the quantity. The same study found vegetation still exerting a cooling influence whose effect remained relatively weak because the city’s green cover has become increasingly fragmented and disconnected. That is a connectivity result, stated as a limitation. Nobody has followed it with a connectivity analysis."
+        },
+        {
+          "h": "The network is already legible in the data",
+          "t": "Chennai has an unusually well-documented blue network. A citizens’ charter for the Pallikaranai watershed describes a 306 km² basin with a cascade of 65 major lakes and hundreds of ponds, and cites a study identifying 452 water bodies of which 165 have been lost. That study, by the Uvakai Research Foundation, puts the losses at 165 water bodies covering 7.35 km² - 31 lakes and 134 tanks — in a 306.27 km² catchment still retaining 25 km² of water bodies with 37.5 mcm of storage, of which the marsh itself accounts for 694 hectares and 6.94 mcm. The marsh’s own trajectory is the familiar one: from 5,500 hectares recorded in the 1965 survey to about 600 hectares by 2013, with large-scale residential development and a sewage treatment plant occupying 250 acres of prime marshland. \n\nThose losses work out to roughly 23% of the catchment’s water-body area, or 37% of its water bodies by count - my own arithmetic from the figures above, and the gap between the two numbers is itself informative.\n\nBecause a cascade is a sequence, 165 removals from a 452-node chain do not distribute evenly. Some were terminal ponds whose loss cost the system little. Others were the link between an upper tank group and the marsh, and their loss severed a drainage path the remaining lakes still depend on. No area statistic distinguishes the two."
+        },
+        {
+          "h": "The method, and what it adds",
+          "t": "Two established tools answer this directly. Morphological spatial pattern analysis classifies a binary green or water layer into core, islet, perforation, edge, loop, branch and - the class that matters - bridge: pixels that connect two cores and nothing else. Graph-based connectivity indices then rank each patch by its contribution, so removing a patch and recomputing gives its marginal value to the network.\n\nNeither is new to India. Graph-theoretic connectivity between Chennai’s landscape patches has already been modelled using Conefor, and MSPA has been combined with landscape metrics at ward level for three Indian Himalayan capitals, classifying patches into seven morphological classes to give a spatial basis for improving connectivity (Anees et al., Land). What has not been done for Chennai is the combination applied to green and blue layers together, with the result expressed as a ranked list of cut patches rather than a connectivity map. \n\nA map tells a planner the network is fragmented, which they know. A ranked list of twenty parcels, each with the connectivity loss its removal would cause, is a document a planning authority can act on."
+        },
+        {
+          "h": "Four outputs worth producing",
+          "t": "A bridge inventory - every MSPA bridge with area, land use and ownership. Bridges are small, which is why they are cheap to build over and absent from size-keyed protection lists.\n\nA cut ranking, computed separately for green and blue, since a patch can be critical to one and trivial to the other.\n\nA retrospective. Run the same analysis on the 1990s network: which of the 165 lost water bodies were bridges, and does today’s flooding pattern match where the cuts fell?\n\nAn overlay with development status, so patches that are both critical and unprotected can be named."
+        },
+        {
+          "h": "This has an institutional home already",
+          "t": "Chennai’s city biodiversity index work with ICLEI already carries a counter-fragmentation section and a connectivity map of the corporation area showing which patches were merged to compute the indicator - so the municipal process asks for a connectivity number and currently receives a coarse one. The residents’ coalition is meanwhile demanding a basin-level plan for the Pallikaranai watershed, a Flood Plain Zoning Act and special development regulations for the metropolitan area, all of which need parcel-level evidence to survive contestation. And the pressure is rising: Tamil Nadu’s 2026 urban heat island assessment projects 200–250 thermal discomfort days a year for Chennai and other major cities by 2050, while field measurement in the city found a shaded road stretch at 41.5°C against 50.5°C at an unshaded signal opposite - the kind of difference continuity of canopy, not total canopy, delivers."
+        },
+        {
+          "h": "Limits",
+          "t": "Structural connectivity is not functional connectivity. MSPA bridges describe what is physically joined, not what water or species move through: a bridge of degraded scrub may be hydrologically useless, and a culverted channel may function while appearing severed. Any blue-network ranking must be checked against drainage direction, not only map topology.\n\nClassification thresholds drive the results - minimum patch size, edge width and the dispersal distance assumed in the connectivity index each change which patches look critical, so sensitivity to all three should be reported rather than a single ranking. And a 30 m land cover product cannot see a 10 m channel, which is the scale at which much of this network was cut."
+        }
+      ]
     }
   ]
 }
